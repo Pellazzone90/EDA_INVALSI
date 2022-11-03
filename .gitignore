@@ -186,9 +186,13 @@ cython_debug/
 .mypy_cache
 
 ### Project  ###
-data/*
-#!data/.gitkeep
-!*.gitkeep
+#!*.gitkeep
+data/in/*
+!data/in/.gitkeep
+data/out/*
+!data/out/.gitkeep
+data/plots/*
+!data/plots/.gitkeep
 jupyters/*
 !jupyters/.gitkeep
 !jupyters/EDA*
