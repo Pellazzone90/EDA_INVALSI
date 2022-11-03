@@ -187,13 +187,15 @@ cython_debug/
 
 ### Project  ###
 data/*
-!data/.gitkeep
+#!data/.gitkeep
+!*.gitkeep
 jupyters/*
 !jupyters/.gitkeep
-!jupyters/EDA_parte1.ipynb
-!jupyters/EDA_parte2.ipynb
-!jupyters/EDA_parte3&4.ipynb
-!jupyters/EDA_parte5.ipynb
+!jupyters/EDA*
+#!jupyters/EDA_parte1.ipynb
+#!jupyters/EDA_parte2.ipynb
+#!jupyters/EDA_parte3&4.ipynb
+#!jupyters/EDA_parte5.ipynb
 # !jupyters/*.ipynb
 envs/dwh.env
 envs/datalake.env
